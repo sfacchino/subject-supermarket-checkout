@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+   background-color: #F7F7F7;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+button {
+    border-radius: 99px;
+    border: solid 4px #549700;
+    background-color: #78D702;
+    color: white;
+    padding: 16px 32px;
+    font-size: 28px;
+}
