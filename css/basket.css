@@ -1,0 +1,27 @@
+.crt {
+    border: 2px solid #00216C;
+    width: max-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 12px;
+}
+.number {
+    position: absolute;
+    bottom: 138px;
+    left: 88px;
+    color:  white;
+    background-color: #00216C;
+    border-radius: 9999px;
+    padding: 12px;
+}
+button {
+    background-color: #00216C;
+    border-radius: 4px;
+    color: white;
+    border: none;
+    padding: 4px 20px;
+    z-index: -1;
+}
